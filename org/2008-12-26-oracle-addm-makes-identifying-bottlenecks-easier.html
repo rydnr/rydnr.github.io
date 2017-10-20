@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-10-19 Thu 07:59 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Oracle ADDM makes identifying bottlenecks easier (from +TITLE)</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="rydnr" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Oracle ADDM makes identifying bottlenecks easier (from +TITLE)</h1>
+<div class="HTML">
+<p>
+layout: post
+title: Oracle ADDM makes identifying bottlenecks easier (from org/)
+date: 2008-12-26
+categories: 
+</p>
+<ul class="org-ul">
+<li>oracle</li>
+</ul>
+<p>
+author: rydnr
+excerpt: 
+</p>
+
+</div>
+<p>
+:ON: 2008-12-26
+</p>
+<div id="outline-container-orgee8ec3b" class="outline-2">
+<h2 id="orgee8ec3b">Oracle ADDM makes identifying bottlenecks easier</h2>
+<div class="outline-text-2" id="text-orgee8ec3b">
+<p>
+Me, an Oracle advocate? I hope I'm &lt;strong&gt;not&lt;/strong&gt; becoming a &lt;em&gt;pragmatic programmer&lt;/em&gt; :).
+</p>
+
+<p>
+As you may already know, we have our highest traffic peak every year on Dec, 22th. We offer the users a way to quickly check if their Christmas ticket has won any prize, and use banners to try to make them buy tickets for the next big draw, on Jan, 6th. In Spain, I heard (from journalists, so it's not very reliable) that we spend &lt;em&gt;in average&lt;/em&gt;, around 150 euros &lt;strong&gt;each&lt;/strong&gt;. That means a lot of traffic, and problems trying to get response times reasonable.
+</p>
+
+<p>
+We deal with three separate systems: Oracle, Jetty processes, and Apache. We have 6 app servers per stage per location, 2 &lt;em&gt;stages&lt;/em&gt; per location, 2 locations; 10 servers dedicated to Apache in cluster, per location; and a single Oracle 10G in one location, and a redundant (but stand-by) one in the other.
+</p>
+
+<p>
+Our problems usually start when Nagios notifies of too many connections between Jetty to Oracle, too much load in the Oracle server, or too many &lt;em&gt;httpd-es&lt;/em&gt; processes. At the same time, we inspect Etracker and get Watchmouse reports. Our tools: check sessions in Oracle getting too much resources or taking too long, restarting Jetty processes, toggling stages in each location, balancing traffic to specific locations or not. That's all. We elaborate hipothesis on the run, while trying to survive. We don't dare to make 'last-minute' releases, although we had some concerns about the query all traffic is triggering.
+</p>
+
+<p>
+For years, we convinced ourselves that 'tomorrow we'll analyze and understand what happened', but the problem was not related to a lack of time, but a lack of tools and transparency in almost every aspect: We don't have JMX enabled in Jetty (and are not using Oracle's DMS-enabled driver either); we have serious doubts about how mod<sub>jk</sub> is performing, after our research on our high percentage of unexpected 503 errors (which is affected by mod<sub>jk</sub> configuration, the size of the thread pool in Jetty, and the Jetty release); and Oracle is, in our case, the perfect example of opaqueness: we &lt;strong&gt;have had &lt;em&gt;selects blocking selects&lt;/em&gt;&lt;/strong&gt; in the past, and no (known) way to find out why.
+</p>
+
+<p>
+We used the &lt;em&gt;statspack&lt;/em&gt; but didn't get conclusions. Last time I recall, we got an absurd number of something called &lt;em&gt;rollbacks&lt;/em&gt; (about 4 millions in a day), when almost all work was just simple selects; so I concluded that the term should be referring to something else.
+</p>
+
+<p>
+Anyway, I found out that Oracle 10 has pre-shipped a (r)evolution of the statspatck: a tool called Automatic Database Diagnostic Monitor - ADDM [1]. I read a technical article explaining the reasons and the concepts, and I got interested.
+</p>
+
+<p>
+Lucky us, Automatic Workload Repository - AWR is enabled by default, so I generated some reports to find out the problems from the database point of view, the day after. Here's a verbatim transcript of the main problem:
+&lt;pre&gt; FINDING 1: 100% impact (236784 seconds)&lt;/pre&gt;
+&lt;pre&gt;----------------------------------&#x2013;&#x2014;&lt;/pre&gt;
+&lt;pre&gt;Host CPU was a bottleneck and the instance was consuming 92% of the host CPU.&lt;/pre&gt;
+&lt;pre&gt;All wait times will be inflated by wait for CPU.&lt;/pre&gt;
+&lt;pre&gt;
+   RECOMMENDATION 1: Host Configuration, 100% benefit (236784 seconds)&lt;/pre&gt;
+&lt;pre&gt;      ACTION: Consider adding more CPUs to the host or adding instances&lt;/pre&gt;
+&lt;pre&gt;         serving the database on other hosts.&lt;/pre&gt;
+&lt;pre&gt;      ACTION: Also consider using Oracle Database Resource Manager to&lt;/pre&gt;
+&lt;pre&gt;         prioritize the workload from various consumer groups.&lt;/pre&gt;
+&lt;pre&gt;
+   ADDITIONAL INFORMATION:&lt;/pre&gt;
+&lt;pre&gt;      Host CPU consumption was 92%.  CPU runqueue statistics are not available&lt;/pre&gt;
+&lt;pre&gt;      from the host's OS. This disables ADDM's ability to estimate the impact&lt;/pre&gt;
+&lt;pre&gt;      of this finding.&lt;/pre&gt;
+&lt;pre&gt;
+FINDING 2: 89% impact (210500 seconds)&lt;/pre&gt;
+&lt;pre&gt;---------------------------------&#x2013;&#x2014;&lt;/pre&gt;
+&lt;pre&gt;SQL statements consuming significant database time were found.&lt;/pre&gt;
+&lt;pre&gt;
+   RECOMMENDATION 1: SQL Tuning, 100% benefit (284659 seconds)&lt;/pre&gt;
+&lt;pre&gt;      ACTION: Investigate the SQL statement with SQL<sub>ID</sub> "grprqybxz2sdx" for&lt;/pre&gt;
+&lt;pre&gt;         possible performance improvements.&lt;/pre&gt;
+Nothing we could do easily for the main point, but we could certainly invest time on the second finding. So I reviewed what ADDM had to say for previous, not-so-difficult days:
+&lt;pre&gt;&lt;/pre&gt;
+&lt;pre&gt;  RECOMMENDATIONS&lt;/pre&gt;
+&lt;pre&gt;[..]&lt;/pre&gt;
+&lt;pre&gt; SQL ID     : grprqybxz2sdx
+SQL Text   : select n, province<sub>id</sub>, g<sub>administration</sub><sub>id</sub>, special<sub>number</sub>,
+             available from ( select tm.N, tm.province<sub>id</sub>,
+[..]&lt;/pre&gt;
+&lt;pre&gt; --------------------------------------------------------------------------&#x2013;&#x2014;
+FINDINGS SECTION (1 finding)
+</p>
+<hr />
+
+<p>
+1- Index Finding (see explain plans section below)
+</p>
+<hr />
+<p>
+  The execution plan of this statement can be improved by creating one
+or more indices.
+</p>
+
+<p>
+Recommendation (estimated benefit: 100%)
+</p>
+<hr />
+<ul class="org-ul">
+<li>Consider running the Access Advisor to improve the physical schema</li>
+</ul>
+<p>
+design or creating the recommended index.
+    create index VEN24GAMES.IDX$$<sub>09AF0001</sub> on
+    VEN24GAMES.G<sub>NAT</sub><sub>LOT</sub><sub>TICKET</sub><sub>METADATA</sub>('G<sub>NAT</sub><sub>LOT</sub><sub>TICKET</sub><sub>TYPE</sub><sub>ID</sub>','BOOKED<sub>BY</sub>'
+    );
+</p>
+
+<p>
+Rationale
+</p>
+<hr />
+<p>
+    Creating the recommended indices significantly improves the
+execution plan of this statement. However, it might be preferable to
+run "Access Advisor" using a representative SQL workload as opposed to
+a single statement. This will allow to get comprehensive index
+recommendations which takes into account index maintenance overhead and
+additional space consumption.
+[..]&lt;/pre&gt;
+I did as suggested, but executing the Access Advisor threw an error and I took the second option, reducing therefore the impact of such problem from there on. One interesting point is that testing the recommendations for such findings can be done in test or pre-production servers, since what is used for identifying the sql sentence is its hash, and therefore is the same across servers.
+</p>
+
+<p>
+I think this is an useful tool, and hopefully is able to find also problems regarding structure of physical schemas, tablespaces, discs, etc.
+</p>
+
+<p>
+[1]  <a href="http://www.oracle.com/technology/products/manageability/database/pdf/twp03/TWP_manage_automatic_performance_diagnosis.pdf">http://www.oracle.com/technology/products/manageability/database/pdf/twp03/TWP_manage_automatic_performance_diagnosis.pdf</a>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2008-12-26</p>
+<p class="author">Author: rydnr</p>
+<p class="date">Created: 2017-10-19 Thu 07:59</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
