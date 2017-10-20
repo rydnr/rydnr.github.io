@@ -1,4 +1,7 @@
+name: Hank Quinlan, Horrible Corp
+markdown: kramdown
 safe: true
 lsi: false
-pygments: true
+host: localhost
+highlighter: pigments.rb
 timezone: Europe/Madrid
