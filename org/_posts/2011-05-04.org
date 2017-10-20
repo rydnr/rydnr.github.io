@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Windows beware!
+date: 2011-05-04
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-05-04
+#+TITLE: Windows beware!
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-05-04
+:END:
+* Windows beware!
+
+I wanted to provide a link to a new (free) <a href="http://www.microsoft.com/security/pc-security/malware-removal.aspx">Microsoft tool</a> aimed towards removing malware and spyware. It possibly complements <a href="http://www.microsoft.com/security_essentials/">Security Essentials</a> (which has recently failed me to detect some viruses, so beware). For some reason, the strategy this time is to force you to download the tool every 10 days.
+
+Anyway, there's also an interesting guide regarding <a href="http://www.nsa.gov/ia/_files/factsheets/Best_Practices_Datasheets.pdf">Best practices for keeping your home network secure</a> from the NSA.

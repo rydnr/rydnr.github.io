@@ -1,0 +1,29 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Interesting reading
+date: 2014-05-20
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2014-05-20
+#+TITLE: Interesting reading
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2014-05-20
+:END:
+* Interesting reading
+
+<p>A friend of mine agrees completely. He doesn't believe me when I say here we once got an ipad for christmas.</p>
+
+<p><a href="https://www.quora.com/Management/What-are-common-mistakes-that-new-or-inexperienced-managers-make">https://www.quora.com/Management/What-are-common-mistakes-that-new-or-inexperienced-managers-make</a>
+<a href="http://www.docstoc.com/article/169759646/The-True-Costs-of-Bad-Bosses">http://www.docstoc.com/article/169759646/The-True-Costs-of-Bad-Bosses</a></p>

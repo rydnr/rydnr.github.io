@@ -1,0 +1,32 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Google App Engine supports Java
+date: 2012-08-28-1
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-08-28-1
+#+TITLE: Google App Engine supports Java
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-08-28-1
+:END:
+* Google App Engine supports Java
+
+I hope this is not old news for you, but last time I checked I thought Java wasn't supported.
+
+Anyway, you can use <a href="https://developers.google.com/appengine/">Google cloud-hosting services</a> for your prototypes, personal, and commercial <a href="https://developers.google.com/appengine/docs/java/overview">Java-based</a> projects. You can experience how is using Google's BigTable in practice, even using <a href="http://www.jiql.org/xwiki/bin/view/Main/">plain JDBC</a>.
+
+For me, it's as easy to setup as Amazon's, but without forcing you to give your credit card or worry about how much you'll end up paying.
+
+It could make sense to invest on a puppet-supported system infraestructure allowing you to easily deploy development or test environments using this (or similar) free hosting services.

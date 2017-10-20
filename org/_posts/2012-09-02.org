@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: If you own a kindle
+date: 2012-09-02
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-09-02
+#+TITLE: If you own a kindle
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-09-02
+:END:
+* If you own a kindle
+
+Then this could be interesting for you:
+
+<a href="http://www.amazon.com/Effective-Programming-More-Writing-ebook/dp/B008HUMTO0/">Effective Programming: More than writing code</a>, Kindle version for free at amazon.

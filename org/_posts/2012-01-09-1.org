@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: We code hard
+date: 2012-01-09-1
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-01-09-1
+#+TITLE: We code hard
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-01-09-1
+:END:
+* We code hard
+
+Funny :)
+
+<a href="http://www.youtube.com/watch?v=KC8lt--rEEo">http://www.youtube.com/watch?v=KC8lt--rEEo</a>

@@ -1,0 +1,29 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Trends in web technology
+date: 2011-03-31
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-03-31
+#+TITLE: Trends in web technology
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-03-31
+:END:
+* Trends in web technology
+
+<a href="http://httparchive.org">HTTP archive</a> offers <a href="http://httparchive.org/trends.php">trends</a> and some other <a href="http://httparchive.org/interesting.php">interesting</a> and useful stats.
+Nice.
+
+P.D.: No, tipp24 is not listed.

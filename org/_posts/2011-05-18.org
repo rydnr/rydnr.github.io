@@ -1,0 +1,27 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Defective Java: Mistakes that matter
+date: 2011-05-18
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-05-18
+#+TITLE: Defective Java: Mistakes that matter
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-05-18
+:END:
+* Defective Java: Mistakes that matter
+
+Interesting <a href="http://vimeo.com/17157772">video</a> from Google...
+

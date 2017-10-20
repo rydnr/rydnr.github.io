@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: For those who love programming languages
+date: 2011-02-14
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-02-14
+#+TITLE: For those who love programming languages
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-02-14
+:END:
+* For those who love programming languages
+
+Lots of new programming languages I never heard of before.
+
+<a href="http://lambda-the-ultimate.org/node/4186">http://lambda-the-ultimate.org/node/4186</a>

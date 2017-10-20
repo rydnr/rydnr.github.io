@@ -1,0 +1,30 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Executable requirements
+date: 2011-05-17
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-05-17
+#+TITLE: Executable requirements
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-05-17
+:END:
+* Executable requirements
+
+I never asked it here: Have you considered using <a href="http://agile.dzone.com/articles/executable-specifications">executable requirements</a>?
+
+<a href="http://www.concordion.org/">Concordium</a> seems worth trying...
+
+Some alternatives can be found in <a href="http://stackoverflow.com/questions/12815/anyone-using-executable-requirements">stack overflow</a>, of course, where else lately?

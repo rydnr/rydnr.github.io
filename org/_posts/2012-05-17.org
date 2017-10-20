@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Teach yourself programming in 10 years
+date: 2012-05-17
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-05-17
+#+TITLE: Teach yourself programming in 10 years
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-05-17
+:END:
+* Teach yourself programming in 10 years
+
+A classic essay, ten years later.
+
+http://norvig.com/21-days.html

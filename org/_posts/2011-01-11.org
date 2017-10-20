@@ -1,0 +1,31 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Apache Shiro
+date: 2011-01-11
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-01-11
+#+TITLE: Apache Shiro
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-01-11
+:END:
+* Apache Shiro
+
+I've just come across <a href="http://shiro.apache.org">Apache Shiro</a>.
+It seems that Apache is again pushing forward framework-agnostic improvements to painful-to-use Java specs, in this case JAAS.
+
+Has anyone used it already?
+
+Reading its 10-minute tutorial, it seems it includes an abstraction to Session, which can be used outside HTTP and supports features such as clustering.

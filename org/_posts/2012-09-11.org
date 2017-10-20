@@ -1,0 +1,30 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Java8: No jigsaw
+date: 2012-09-11
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-09-11
+#+TITLE: Java8: No jigsaw
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-09-11
+:END:
+* Java8: No jigsaw
+
+This is two months late, but still important.
+
+<a href="http://mreinhold.org/blog/late-for-the-train">http://mreinhold.org/blog/late-for-the-train</a>
+
+Additionally, I've come across this <a href="https://blogs.oracle.com/javaspotlight">Java podcast</a> which I was unaware of.

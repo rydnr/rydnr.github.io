@@ -1,0 +1,31 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Star wars version of Subversion history
+date: 2011-12-14
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-12-14
+#+TITLE: Star wars version of Subversion history
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-12-14
+:END:
+* Star wars version of Subversion history
+
+I've extracted some periods of our Subversion repository and created a video using <a href="http://code.google.com/p/gource/">gource</a>.
+Unfortunately wordpress doesn't allow uploading files this big, so temporarily it's available online:
+
+http://www.megaupload.com/?d=DDZF7ODC
+
+If you do the same for Alinghi, it'd be interesting!

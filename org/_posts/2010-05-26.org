@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Someone saying it's ok not to write unit tests
+date: 2010-05-26
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2010-05-26
+#+TITLE: Someone saying it's ok not to write unit tests
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2010-05-26
+:END:
+* Someone saying it's ok not to write unit tests
+
+I've found this <a href="http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx">post</a> inspiring.
+
+At some point, it fits with John's remarks of FDC as "they thought they were too good to need unit tests".

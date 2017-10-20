@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Extremist programming
+date: 2012-11-27
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-11-27
+#+TITLE: Extremist programming
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-11-27
+:END:
+* Extremist programming
+
+Moderation is the root of all evil! :D
+
+<a href="http://blog.ezyang.com/2012/11/extremist-programming/">http://blog.ezyang.com/2012/11/extremist-programming/</a>.

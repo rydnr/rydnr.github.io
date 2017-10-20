@@ -1,0 +1,26 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Comparative Studies of 10 Programming Languages within 10 Diverse Criteria
+date: 2010-09-03
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2010-09-03
+#+TITLE: Comparative Studies of 10 Programming Languages within 10 Diverse Criteria
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2010-09-03
+:END:
+* Comparative Studies of 10 Programming Languages within 10 Diverse Criteria
+
+Arxiv's <a href="http://arxiv.org/pdf/1009.0305v1">article</a> for those interested. I'm not judging it since I'd have to read it first :). I just went right to the conclusions.

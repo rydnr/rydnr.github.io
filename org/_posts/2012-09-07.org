@@ -1,0 +1,26 @@
+#+BEGIN_HTML
+---
+layout: post
+title: A bit scary
+date: 2012-09-07
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2012-09-07
+#+TITLE: A bit scary
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2012-09-07
+:END:
+* A bit scary
+
+Hope you don't <a href="https://www.f-secure.com/weblog/archives/00002423.html">get tempted</a>...

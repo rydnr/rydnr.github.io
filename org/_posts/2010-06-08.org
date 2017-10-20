@@ -1,0 +1,26 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Does someone know Gradle?
+date: 2010-06-08
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2010-06-08
+#+TITLE: Does someone know Gradle?
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2010-06-08
+:END:
+* Does someone know Gradle?
+
+I'm just curious about whether someone has given <a href="http://www.gradle.org">gradle</a> a try.

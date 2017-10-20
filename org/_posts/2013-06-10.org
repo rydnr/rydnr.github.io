@@ -1,0 +1,36 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Java quiz: covariant return types
+date: 2013-06-10
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2013-06-10
+#+TITLE: Java quiz: covariant return types
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2013-06-10
+:END:
+* Java quiz: covariant return types
+
+Does this compile? Why (not)?
+
+<code>import java.util.ArrayList;
+    import java.util.List;
+    public class A {
+    &nbsp;&nbsp;&nbsp;&nbsp;public List&lt;Integer&gt; getList() { ... }
+    }
+    public class B extends A {
+    &nbsp;&nbsp;&nbsp;&nbsp;@Override
+        &nbsp;&nbsp;&nbsp;&nbsp;public ArrayList&lt;Integer&gt; getList() { ... }
+    }</code>

@@ -1,0 +1,43 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Java quiz: generics and exceptions
+date: 2013-05-31
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2013-05-31
+#+TITLE: Java quiz: generics and exceptions
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2013-05-31
+:END:
+* Java quiz: generics and exceptions
+
+Last time I failed (my solution didn't work, but the learning process was worth the time invested). Here's another quiz on generics:
+
+<ol>
+	<li>Does this compile? Why / why not?</li>
+<code>public class MyException&lt;T&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extends Exception {
+&nbsp;&nbsp;&nbsp;&nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;public T getValue() { ... };
+}</code>
+
+	<li>Does this compile? Why / why not?</li>
+
+<code>public class MyClass&lt;E extends Exception&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;public void doSomething()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throws E {
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</code>

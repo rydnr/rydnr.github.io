@@ -1,16 +1,26 @@
-#+STARTUP: showall indent
-#+STARTUP: hidestars
-#+LANGUAGE: es
-#+AUTHOR: Jose San Leandro
-#+EMAIL: jose.sanleandro@witworks.es#
-#+TITLE: PODEMOS y la ceguera
 #+BEGIN_HTML
 ---
-layout: default
+layout: post
 title: PODEMOS y la ceguera
-excerpt: Reflexiones sobre PODEMOS en sus dos interpretaciones
+date: 2014-12-20
+categories: 
+- podemos
+author: rydnr
+excerpt: some description
 ---
 #+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2014-12-20
+#+TITLE: PODEMOS y la ceguera
+#+DESCRIPTION: some description
+#+KEYWORDS: blog, podemos
+:PROPERTIES:
+:ON: 2014-12-20
+:END:
 
 PODEMOS, como movimiento político, tiene muchos matices. Vive en una encrucijada, y tiene que buscar constantemente un compromiso difícil entre dos interpretaciones.
 
@@ -36,3 +46,4 @@ Llegando al trasfondo de nuestra cultura occidental, ¿Cuál es el objetivo de c
 
 
 # (CC) By-ND 3.0 http://creativecommons.org/licenses/by-nd/3.0/
+#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org

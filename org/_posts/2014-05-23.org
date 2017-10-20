@@ -1,0 +1,46 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Protected? not really
+date: 2014-05-23
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2014-05-23
+#+TITLE: Protected? not really
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2014-05-23
+:END:
+* Protected? not really
+
+<p>One gotcha regarding the "protected" keyword. Not really a quiz, but...</p>
+
+<p>Let's say you have:</p>
+
+<pre><code>package a;
+class A {
+    protected void childrenAddingUp() { ... };
+}
+
+package b;
+class B
+  extends A {
+    @Override
+    protected void childrenAddingUp() {
+        super.childrenAddingUp();
+    }
+}
+</code></pre>
+
+<p>Does it make any sense? In which scenario?
+Hint: "protected" means two things...</p>

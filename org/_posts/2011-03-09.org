@@ -1,0 +1,26 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Web application marketplace
+date: 2011-03-09
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-03-09
+#+TITLE: Web application marketplace
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-03-09
+:END:
+* Web application marketplace
+
+We could try to publish Alinghi in <a href="http://cherokee-market.com/">Cherokee market</a> under an open-source license: first 10 bets/day free ;).

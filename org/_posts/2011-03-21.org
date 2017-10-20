@@ -1,0 +1,28 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Programmer competency matrix
+date: 2011-03-21
+categories: 
+- 
+author: rydnr
+excerpt: 
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2011-03-21
+#+TITLE: Programmer competency matrix
+#+DESCRIPTION: 
+#+KEYWORDS: 
+:PROPERTIES:
+:ON: 2011-03-21
+:END:
+* Programmer competency matrix
+
+Time for self-evaluation and unavoidable depression afterwards ...
+
+<a href="http://www.indiangeek.net/wp-content/uploads/Programmer%20competency%20matrix.htm">http://www.indiangeek.net/wp-content/uploads/Programmer%20competency%20matrix.htm</a>

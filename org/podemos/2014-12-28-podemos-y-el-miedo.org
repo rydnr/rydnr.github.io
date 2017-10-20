@@ -1,0 +1,56 @@
+#+BEGIN_HTML
+---
+layout: post
+title: PODEMOS y el miedo
+date: 2014-12-28
+categories: 
+- podemos
+author: rydnr
+excerpt: Reflexiones sobre el miedo a Podemos
+---
+#+END_HTML
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: rydnr
+#+DATE: 2014-12-28
+#+TITLE: PODEMOS y el miedo
+#+DESCRIPTION: Reflexiones sobre el miedo a PODEMOS
+#+KEYWORDS: podemos, miedo
+:PROPERTIES:
+:ON: 2014-12-28
+:END:
+
+La Navidad es una época del año diferente. Nos reencontramos con algunas personas que sólo vemos de vez en cuando, algunos incluso sólo en esta época. Recordamos a quienes ya no están.
+Aprovechamos el merecido descanso para comprar regalos, para hacer balance del año, y para proponernos nuevas metas para el año siguiente.
+Respiramos ilusión, contagiados por la de los más pequeños.
+
+Este año 2014 PODEMOS nos ha traído ilusión, y no ha esperado a Navidad. Pero no la ilusión de quien desea que la suerte le sonría, que se cumpla algo que no depende de uno mismo. Es otro tipo de ilusión, la que crece con la certidumbre de que somos muchos los que estamos convencidos de que ha llegado el momento de actuar.
+Dejaremos por fin atrás la resignación y comprobaremos que tenemos la capacidad de decidir nuestro futuro. Combatiremos la incertidumbre con ilusión.
+
+Esta ilusión no ha llegado sola. El entorno lo propicia. No ha sido proactiva, sino reactiva. ``Tú vota, que nosotros nos ocupamos'' es la consigna que resume la visión de quien cree en que el orden social necesita una minoría que dirige, y una mayoría indiferente que se crea artificialmente identificada.
+Pero siempre manteniendo la idea de que existe una distancia insalvable entre los dos grupos, insistiendo en que es un pilar fundamental de nuestra sociedad. Quien lo cuestione o quiera reivindicar un papel más activo de la mayoría en las decisiones políticas, es etiquetado como antisistema y peligroso. Como si quisiera el mal o el colapso.
+
+PODEMOS nos ha abierto los ojos, nos ha permitido darnos cuenta de que nuestra fuerza no proviene de la fe en la preparación de los políticos o economistas que más o menos encajen con nuestra forma de pensar.
+Ha dado la vuelta al enfoque. Nuestra sociedad es nuestro problema y nuestra responsabilidad. Es fácil y cómodo dejarnos convencer con que hay leyes fundamentales, cuyos designios tenemos que asumir y acatar. Y es fácil y cómodo porque llevamos mucho tiempo acostumbrados a un papel pasivo y testimonial.
+
+Por ejemplo, cuando nos manifestamos, inevitablemente nos asalta la duda de si servirá para algo. Y con la nueva ley las consecuencias por hacerlo son ya inasumibles. El nivel de violencia por querer dar un paso al frente y reivindicar un papel activo en la ``cosa común'' es desproporcionado.
+
+¿De qué tienen miedo? PODEMOS se autoimpone una integridad moral y un compromiso democrático que harían fácil restituir el /status quo/ im\-pe\-ran\-te, antes incluso de que PODEMOS sumiera al país en las calamidades que pronostican. Así, regresarían triunfalmente para ``salvarnos'', y con el regocijo de decir ``ya os lo avisé''.
+
+Sin embargo, no dicen eso. Están convencidos de que es, de alguna manera, irreversible. Sólo la idea de que llegue PODEMOS al poder es para ellos apocalíptica, independientemente de las medidas concretas.
+
+Esta irracionalidad merece una reflexión. Y sobre todo en Navidad, que mezclar amor y generosidad con fantasías y contradicciones se considera parte de nuestra cultura, de nuestra identidad.
+
+Me refiero, por supuesto, a la religión. Un conjunto de ideas que no se sostienen, que se desvanecen irremediablemente después de ver Zeitgeist[fn:1] o escuchar a Richard Dawkins[fn:2], y sin embargo perduran. Y perduran porque se aprovechan del miedo.
+
+Propongo dotar de racionalidad al miedo que nos ha paralizado hasta ahora, y al miedo que despierta PODEMOS en el poder. Sólo entendiéndolo podremos acotarlo, y convencer de que lo que PODEMOS reivindica es que nadie sabe mejor lo que queremos que nosotros mismos.
+
+Y a eso no hay que tenerle miedo.
+
+[fn:1] https://www.youtube.com/watch?v=Iv38TmcrQGk
+[fn:2] Científico y activista, autor de "El gen egoísta": https://richarddawkins.net/
+
+# (CC) By-ND 3.0 http://creativecommons.org/licenses/by-nd/3.0/
+#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
