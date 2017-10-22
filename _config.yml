@@ -1,7 +1,7 @@
-name: Hank Quinlan, Horrible Corp
-markdown: kramdown
+name: Rydnr
 safe: true
 lsi: false
 host: localhost
-highlighter: pigments.rb
+highlighter: rouge
 timezone: Europe/Madrid
+description: Rydnr\'s blog
